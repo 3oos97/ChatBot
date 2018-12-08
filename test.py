@@ -18,6 +18,6 @@ with io.open("dataset.json") as f:
 
 engine.fit(dataset)
 
-parsing = engine.parse(u" Set the temperature to 19 degrees")
+parsing = engine.parse(u" give me my gpa")
 result = json.loads(json.dumps(parsing, indent=2))
 print(result)
