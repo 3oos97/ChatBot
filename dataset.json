@@ -1,7 +1,7 @@
 {
   "entities": {
     "gpa": {
-      "automatically_extensible": true,
+      "automatically_extensible": false,
       "data": [
         {
           "synonyms": [
@@ -15,7 +15,6 @@
       "matching_strictness": 1.0,
       "use_synonyms": true
     },
-
     "room": {
       "automatically_extensible": true,
       "data": [

@@ -18,6 +18,6 @@ with io.open("dataset.json") as f:
 
 engine.fit(dataset)
 
-parsing = engine.parse(u" give me my total ")
+parsing = engine.parse(u" give me my total gpa ")
 result = json.loads(json.dumps(parsing, indent=2))
 print(result['intent']['probability'])
