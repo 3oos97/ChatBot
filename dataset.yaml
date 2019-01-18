@@ -24,19 +24,6 @@ utterances:
   - switch off the light the [room](kitchen), will you?
   - Switch the [room](bedroom)'s lights off please
 
-# requestGPA intent
----
-type: intent
-name: requestGPA
-slots:
-   - name: gpa
-     entity: gpa
-utterances:
-   - what is my [gpa]?
-   - give me my [gpa] please
-   - i want to know my [gpa]
-   - could you tell me my [gpa]?
-
 # setTemperature intent
 ---
 type: intent
@@ -61,6 +48,21 @@ values:
 - bedroom
 - [living room, main room, lounge]
 - [garden, yard, backyard]
+
+
+
+# requestGPA intent
+---
+type: intent
+name: requestGPA
+slots:
+   - name: gpa
+     entity: gpa
+utterances:
+   - what is my [gpa]?
+   - give me my [gpa] please
+   - i want to know my [gpa]
+   - could you tell me my [gpa]?
 
 # gpa entity
 ---
