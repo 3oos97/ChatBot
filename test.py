@@ -20,4 +20,4 @@ engine.fit(dataset)
 
 parsing = engine.parse(u" give me my total ")
 result = json.loads(json.dumps(parsing, indent=2))
-print(result)
+print(result['intent']['intentName'])
