@@ -15,8 +15,9 @@
       "matching_strictness": 1.0,
       "use_synonyms": true
     },
+
     "room": {
-      "automatically_extensible": false,
+      "automatically_extensible": true,
       "data": [
         {
           "synonyms": [],
